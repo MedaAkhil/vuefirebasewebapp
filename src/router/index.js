@@ -10,8 +10,8 @@ const routes = [
   { path: '/events', component: EventList },
   { path: '/register', component: EventRegistration },
   { path: '/admin', component: AdminPage, meta: { requiresAdmin: true } },
-  { path :'/home', component:HomePage },
-  { path : '/gallery', component:GalleryPage } 
+  { path: '/home', component:HomePage },
+  { path: '/gallery', component:GalleryPage } 
 ]
 
 const router = createRouter({
